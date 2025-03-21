@@ -41,12 +41,11 @@ This repository provides a solution for implementing role-based authentication o
     python bot.py
     ```
 
-## Usage
+**Login Page Preview:**
 
-1. **Login Flow**: Users log in using their Discord credentials via OAuth.
-2. **Role Assignment**: Once authenticated, roles are assigned automatically based on the user's access level.
-3. **Manage Roles**: You can modify role assignments in the `bot.py` script.
+![Login Page](https://i.postimg.cc/8k7RvnNK/Screenshot-2025-03-21-130403.png)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Dashboard Page Preview:**
+
+![Dashboard Page](https://i.postimg.cc/Gpz2grJF/dash.png)
 
