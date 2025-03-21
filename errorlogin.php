@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Access</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #000; /* Black background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff; /* White text */
+    }
+
+    /* No Access Container */
+    .no-access-container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1); /* White shadow */
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle white border */
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    /* Heading */
+    .no-access-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Message */
+    .no-access-container p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    /* Login Button */
+    .login-button {
+      display: inline-block;
+      padding: 12px 30px;
+      font-size: 1rem;
+      color: #000; /* Black text */
+      background: #fff; /* White background */
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .login-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* White shadow */
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="no-access-container">
+    <h1>No Access</h1>
+    <p>You do not have the required role to access this page.</p>
+    <a href="login.php" class="login-button">Return to Login</a>
+  </div>
+</body>
+</html>
