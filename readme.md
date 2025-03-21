@@ -49,3 +49,7 @@ This repository provides a solution for implementing role-based authentication o
 
 ![Dashboard Page](https://i.postimg.cc/Gpz2grJF/dash.png)
 
+**Error Login Preview:**
+
+![Error Login Page](https://i.postimg.cc/h4JSqV1Q/Screenshot-2025-03-21-130951.png)
+
